@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav-center {
+  display: flex;
+  margin: 0px auto;
+  text-align: center;
+  justify-content: space-around;
+  padding: 18px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  /* min-height: 10vh; */
+  /* background-color: ga   insboro; */
+}
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+a {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+a:hover {
+  color: rgb(106, 177, 228);
+}
+.nav-center h2 {
+  color: rgb(106, 177, 228);
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 3rem;
+  max-width: 900px;
+  white-space: nowrap;
+  /* padding: px; */
+  padding: 10px;
+  background-color: rgb(17, 15, 15);
+  color: white;
+  border-radius: 20px;
+}
+span {
+  color: rgb(106, 177, 228);
+  font-size: 3rem;
+}
+.btn-hero {
+  border: 2px solid black;
+  outline: none;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 10px;
+  /* display: inline-block; */
+}
+.btn:hover {
+  color: white;
+  background-color: black;
+  transition: all 0.3s linear;
+}
+nav {
+  background-color: white;
+}
